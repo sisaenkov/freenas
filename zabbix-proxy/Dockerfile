@@ -1,6 +1,6 @@
-FROM zabbix/zabbix-proxy-sqlite3:alpine-3.4.14
+FROM zabbix/zabbix-proxy-sqlite3:alpine-3.4.15
 LABEL org.freenas.interactive="false"				\
-      org.freenas.version="3.4.14"				\
+      org.freenas.version="3.4.15"				\
       org.freenas.upgradeable="false"				\
       org.freenas.expose-ports-at-host="false"			\
       org.freenas.autostart="true"				\
