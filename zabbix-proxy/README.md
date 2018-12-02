@@ -1,6 +1,6 @@
 ## Description
 
-Zabbix Proxy 3.4.14 with sqlite3 database.
+Zabbix Proxy 3.4.15 with sqlite3 database.
 
 ## Usage
 
