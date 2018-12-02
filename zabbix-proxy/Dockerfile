@@ -4,12 +4,6 @@ LABEL org.freenas.interactive="false"				\
       org.freenas.upgradeable="false"				\
       org.freenas.expose-ports-at-host="false"			\
       org.freenas.autostart="true"				\
-      org.freenas.volumes="[					\
-          {							\
-              \"name\": \"/var/lib/zabbix\",			\
-              \"descr\": \"Database directory\"			\
-          }							\
-      ]"							\
       org.freenas.settings="[					\
           {							\
               \"env\": \"ZBX_PROXYMODE\",			\
@@ -30,10 +24,5 @@ LABEL org.freenas.interactive="false"				\
               \"env\": \"ZBX_SERVER_PORT\",			\
               \"descr\": \"Server port (e.g. 10051)\",		\
               \"optional\": false				\
-          },							\
-          {							\
-              \"env\": \"TERM\",				\
-              \"descr\": \"xterm\",				\
-              \"optional\": true				\
           }							\
       ]"
