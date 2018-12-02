@@ -11,6 +11,8 @@ Transmission is designed to be easy to use, yet powerful. Transmission has the f
 where transmission should store config files and logs
 * `<path to downloads>:/downloads`
 local path for downloads
+* `<path to watch folder>:/watch`
+watch folder for torrent files
 
 ### Variables:
 

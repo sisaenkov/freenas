@@ -4,12 +4,12 @@ LABEL org.freenas.interactive="false" \
       org.freenas.upgradeable="false" \
       org.freenas.expose-ports-at-host="false"\
       org.freenas.autostart="true" \
-      org.freenas.volumes="[ \
+      org.freenas.volumes="[				\
           {						\
               \"name\": \"/config\",			\
               \"descr\": \"Config storage space\"	\
           }						\
-      ]"						\
+      ]"
 
 RUN export DEBIAN_FRONTEND=noninteractive \
   && echo "debconf debconf/frontend select noninteractive" | debconf-set-selections \
