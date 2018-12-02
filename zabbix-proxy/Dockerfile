@@ -23,12 +23,12 @@ LABEL org.freenas.interactive="false"				\
           },							\
           {							\
               \"env\": \"ZBX_SERVER_HOST\",			\
-              \"descr\": \"Zabbix server IP/hostname\",		\
+              \"descr\": \"Server IP/hostname\",		\
               \"optional\": false				\
           },							\
           {							\
               \"env\": \"ZBX_SERVER_PORT\",			\
-              \"descr\": \"Zabbix server port (e.g. 10051)\",	\
+              \"descr\": \"Server port (e.g. 10051)\",		\
               \"optional\": false				\
           },							\
           {							\
