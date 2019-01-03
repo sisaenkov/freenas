@@ -1,8 +1,16 @@
 FROM goofball222/unifi:latest
-LABEL version="5.9.29"
+
+ARG BUILD_DATE
+ARG VERSION=5.9.29
+
+LABEL org.label-schema.build-date=$BUILD_DATE \
+      org.label-schema.vcs-url="https://github.com/sisaenkov/freenas10/tree/master/unifi" \
+      org.label-schema.version=$VERSION \
+      org.label-schema.schema-version="1.0"
+
 LABEL description="UniFi Controller"
 LABEL org.freenas.interactive="false" \
-      org.freenas.version="5.9.29" \
+      org.freenas.version=$VERSION \
       org.freenas.upgradeable="false" \
       org.freenas.expose-ports-at-host="true" \
       org.freenas.autostart="true" \

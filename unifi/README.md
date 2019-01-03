@@ -1,10 +1,16 @@
-# Ubiquiti Networks UniFi Controller container with FreeNAS metadata
+# sisaenkov/freenas10-unifi
 
-**This container will work on FreeNAS and non-FreeNAS docker implementations**
+[![](https://images.microbadger.com/badges/version/sisaenkov/freenas10-unifi:5.9.29.svg)](https://microbadger.com/images/sisaenkov/freenas10-unifi:5.9.29) [![](https://images.microbadger.com/badges/image/sisaenkov/freenas10-unifi.svg)](https://microbadger.com/images/sisaenkov/freenas10-unifi) ![](https://img.shields.io/docker/pulls/sisaenkov/freenas10-unifi.svg) ![](https://img.shields.io/docker/stars/sisaenkov/freenas10-unifi.svg) [![](https://img.shields.io/badge/github-repo-brightgreen.svg)](https://github.com/sisaenkov/freenas10/tree/master/unifi)
+
+Ubiquiti Networks UniFi Controller container with FreeNAS metadata.
+
+![](http://cluster015.ovh.net/~pfsikbev/images/partenaires/ubiquiti-unifi-logo.png)
+
+## Overview
+* Based on [goofball222/unifi](https://hub.docker.com/r/goofball222/unifi).
+* Optimized for FreeNAS Corral docker machine by adding special labels in Dockerfile.
 
 This container follows the latest UniFi current stable/general availability release.
-
-Current stable/general release is v5.9.x
 
 ## Usage
 
