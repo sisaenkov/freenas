@@ -30,7 +30,7 @@ LABEL org.freenas.interactive="false"				\
       org.freenas.settings="[					\
           {							\
               \"env\": \"TZ\",					\
-              \"descr\": \"Timezone - eg Europe/Moscow\",	\
+              \"descr\": \"Timezone - e.g. Europe/Moscow\",	\
               \"optional\": true				\
           },							\
           {							\
