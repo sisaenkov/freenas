@@ -39,11 +39,10 @@ $ docker run -d --name=ivideon-server --restart=always \
 
 ## Config example
 
-* `/config/config.xml` - Ivideon Cloud access settings (generated during server first run)
 * `/config/schedule.json` - job scheduler
 * `/config/videoserverd.config` - cameras, logs and archives
 
-The best way to create a configuration file is to setup Ivideon Server application through a graphical interface on any Desktop Linux system. Then copy obtained config file from `~/.IvideonServer/videoserverd.config` to `/config` volume location.
+The best way to create a configuration file is to setup Ivideon Server application through a graphical interface on any Desktop Windows or Linux system. Then copy obtained config file from `~/.IvideonServer/videoserverd.config` or `C:\Users\<USER>\AppData\Local\Ivideon\IvideonServer\videoserverd.config` to `/config` volume location.
 
 #### videoserverd.config
 
@@ -122,7 +121,7 @@ The best way to create a configuration file is to setup Ivideon Server applicati
          "id" : 2,
          "mdExcludedZoneList" : [
             [ 129, 456, 9892, 10000 ]
-         ],								       // depends on video stream resolution
+         ],								   // depends on video stream resolution
          "mdSensitivity" : 60,				// 1-100 (higher - more sensitive)
          "name" : "Camera 3 (Door)",
          "recordQuality" : "high",			// high, medium, low, high+medium, high+low
