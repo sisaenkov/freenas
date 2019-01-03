@@ -2,7 +2,7 @@
 
 [![](https://images.microbadger.com/badges/version/sisaenkov/freenas10-unifi:5.9.29.svg)](https://microbadger.com/images/sisaenkov/freenas10-unifi:5.9.29) [![](https://images.microbadger.com/badges/image/sisaenkov/freenas10-unifi.svg)](https://microbadger.com/images/sisaenkov/freenas10-unifi) ![](https://img.shields.io/docker/pulls/sisaenkov/freenas10-unifi.svg) ![](https://img.shields.io/docker/stars/sisaenkov/freenas10-unifi.svg) [![](https://img.shields.io/badge/github-repo-brightgreen.svg)](https://github.com/sisaenkov/freenas10/tree/master/unifi)
 
-Ubiquiti Networks UniFi Controller container with FreeNAS metadata.
+Ubiquiti Networks UniFi Controller with FreeNAS metadata.
 
 ![](http://cluster015.ovh.net/~pfsikbev/images/partenaires/ubiquiti-unifi-logo.png)
 
